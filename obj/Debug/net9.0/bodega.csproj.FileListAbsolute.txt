@@ -423,3 +423,4 @@ C:\Users\alevi\OneDrive\Desktop\Evaluacion_1\bodega\obj\Debug\net9.0\refint\bode
 C:\Users\alevi\OneDrive\Desktop\Evaluacion_1\bodega\obj\Debug\net9.0\bodega.pdb
 C:\Users\alevi\OneDrive\Desktop\Evaluacion_1\bodega\obj\Debug\net9.0\bodega.genruntimeconfig.cache
 C:\Users\alevi\OneDrive\Desktop\Evaluacion_1\bodega\obj\Debug\net9.0\ref\bodega.dll
+C:\Users\alevi\OneDrive\Desktop\Evaluacion_1\bodega\obj\Debug\net9.0\bodega.sourcelink.json

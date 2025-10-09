@@ -1,0 +1,16 @@
+﻿@page
+@model bodega.Pages.NuevoProductoModel
+@{
+}
+<h1>Nuevo producto</h1>
+
+<form asp-page="NuevoProducto" method="post">
+    <p>Nombre: <input type="text" name="nombre"></p>
+    <p>Precio: <input type="number" name="precio"></p>
+    <p>Unidad: <input type="text" name="unidad"></p>
+    <p><input type="submit" value="Registrar"></p>
+</form>
+
+<p>
+@Model.estado
+</p>

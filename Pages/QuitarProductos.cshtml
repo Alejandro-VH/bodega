@@ -1,0 +1,30 @@
+﻿@page
+@model bodega.Pages.QuitarProductosModel
+@{
+}
+
+<h1>Quitar stock a bodega</h1>
+
+<form asp-page="QuitarProductos" method="post">
+    <p>Bodega:
+        <select name="idBodega">
+            @foreach(Bodega b in Model.lista_bodegas){
+                <option value="@b.Id">@b.Nombre</option>
+            }      
+        </select>
+    </p>
+    <p>Producto:
+        <select name="idProducto">
+            @foreach(Producto p in Model.lista_productos){
+                <option value="@p.Id">Id: @p.Id - @p.Nombre</option>
+            }
+    </select>
+    </p>
+
+    <p>Cantidad:<input type="text" name="cantidad"></p>
+    <p><input type="submit" value="Quitar"></p>
+</form>
+
+<p>
+@Model.estado
+</p>

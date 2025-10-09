@@ -28,6 +28,14 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/alevi/OneDrive/Desktop/Evaluacion_1/bodega/Pages/AgregarProductos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdyZWdhclByb2R1Y3Rvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alevi/OneDrive/Desktop/Evaluacion_1/bodega/Pages/CargarArchivo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyZ2FyQXJjaGl2by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/alevi/OneDrive/Desktop/Evaluacion_1/bodega/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,12 +44,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/alevi/OneDrive/Desktop/Evaluacion_1/bodega/Pages/MoverProductos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92ZXJQcm9kdWN0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alevi/OneDrive/Desktop/Evaluacion_1/bodega/Pages/NuevoProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnVldm9Qcm9kdWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/alevi/OneDrive/Desktop/Evaluacion_1/bodega/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/alevi/OneDrive/Desktop/Evaluacion_1/bodega/Pages/QuitarProductos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVpdGFyUHJvZHVjdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/alevi/OneDrive/Desktop/Evaluacion_1/bodega/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alevi/OneDrive/Desktop/Evaluacion_1/bodega/Pages/VerProductos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVyUHJvZHVjdG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/alevi/OneDrive/Desktop/Evaluacion_1/bodega/Pages/_ViewImports.cshtml]

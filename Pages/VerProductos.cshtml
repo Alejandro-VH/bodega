@@ -1,0 +1,37 @@
+﻿@page
+@model bodega.Pages.VerProductosModel
+@{
+}
+
+<h1>Ver productos por bodega</h1>
+<form asp-page="MuestraBodega">
+    <p>Bodega:
+
+        <select name="idBodega">
+            @foreach(Bodega b in Model.lista_bodegas){
+                <option value="@b.Id">@b.Nombre</option>
+            }
+        </select>
+
+        <button type="submit" value="MuestraBodega">Seleccionar</button>
+    </p>
+</form>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Cantidad</th>
+        <th>Unidad</th>
+    </tr>
+
+    @foreach (var p in Model.lista_productos)
+    {
+        <tr>
+            <td>@p.Id</td>
+            <td>@p.Nombre</td>
+            <td>@p.Cantidad</td>
+            <td>@p.UnidadMedida</td>
+        </tr>
+    }
+</table>

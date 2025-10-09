@@ -1,0 +1,41 @@
+﻿@page
+@model bodega.Pages.MoverProductosModel
+@{
+}
+
+<h1>Mover productos entre bodegas</h1>
+
+<form asp-page="MuestraBodega">
+    <p>Origen:
+
+        <select name="idBodega1">
+            @foreach(Bodega b in Model.lista_bodegas){
+                <option value="@b.Id">@b.Nombre</option>
+            }
+        </select>
+    </p>
+    <p>Destino:
+        <select name="idBodega2">
+            @foreach(Bodega b in Model.lista_bodegas){
+                <option value="@b.Id">@b.Nombre</option>
+            }
+        </select>
+    <p>Producto:
+        <select name="idProducto">
+            @foreach (Producto p in Model.lista_productos)
+            {
+                <option value="@p.Id">@p.Nombre</option>
+            }
+        </select>
+    </p>
+
+    <p>Cantidad:<input type="number" name="cantidad" min="1" value="1" /></p>
+
+
+    <button type="submit" value="MuestraBodega">Enviar producto</button>
+
+</form>
+
+<p>
+@Model.estado
+</p>
