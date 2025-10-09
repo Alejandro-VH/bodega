@@ -1,0 +1,5 @@
+[
+  { "IdBodega": 1, "IdProducto": 4, "Cantidad": 50 },
+  { "IdBodega": 2, "IdProducto": 1, "Cantidad": 100 },
+  { "IdBodega": 1, "IdProducto": 3, "Cantidad": 25 }
+]
