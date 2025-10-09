@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bodega")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0207ce235918f22825f63254dc139088411f7e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f725a49497340f53a147853ec2130e51fb4eaa45")]
 [assembly: System.Reflection.AssemblyProductAttribute("bodega")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bodega")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
